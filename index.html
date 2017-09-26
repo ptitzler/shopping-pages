@@ -7,6 +7,10 @@ id:     how-tos
 <h1>{{ page.title }}</h1>
 
 <div class="section">
-  {% assign items = site.data.projects | reverse %}
-  {% include item.html items=items context="index" %}          
+  
+  <ul>
+  {% for how_to in site.how_tos %}
+    <li> {{ how_to.title }} </li>
+  {% endfor %}
+  </ul>  
 </div>
