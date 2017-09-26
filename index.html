@@ -10,7 +10,7 @@ id:     how-tos
   
   <ul>
   {% for how_to in site.how_tos %}
-    <li> {{ how_to.title }} </li>
+    <li> {{ how_to.title }} <a href = "{{how_to.repo_url}}"> {{how_to.headline}}</a> </li>
   {% endfor %}
   </ul>  
 </div>
