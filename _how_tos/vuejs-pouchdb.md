@@ -1,11 +1,6 @@
 ---
-title:      Vue.js & PouchDB
+title:      Vue.js and PouchDB
 headline:   Learn how to build Offline First using Vue.js and PouchDB
-layout:     layout-featured-collection
-permalink:  food-tracker
-img:        food-tracker.png
-img-thumb:  food-tracker-thumb.png
-strategies: 
-  - offline-first
+repo_url:   https://github.com/ibm-watson-data-lab/shopping-list-vuejs-pouchdb
+author:     https://github.com/glynnbird
 ---
-sfdsfsdfds
