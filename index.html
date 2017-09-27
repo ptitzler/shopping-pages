@@ -8,9 +8,20 @@ id:     how-tos
 
 <div class="section">
   
-  <ul>
   {% for how_to in site.how_tos %}
-    <li> {{ how_to.title }} <a href = "{{how_to.repo_url}}"> {{how_to.headline}}</a> </li>
-  {% endfor %}
-  </ul>  
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">{{how_to.title }}</span>
+              <p>{{how_to.headline}}</p>
+            </div>
+            <div class="card-action">
+              <a href="{{how_to.repo_url}}">GitHub repository</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  {% endfor %} 
+  
 </div>
