@@ -1,0 +1,7 @@
+---
+title:      Polymer and PouchDB
+headline:   Learn how to build Offline First using Polymer and PouchDB
+repo_url:   https://github.com/ibm-watson-data-lab/shopping-list-polymer-pouchdb
+author: Bradley Holt
+author_url:     https://github.com/bradley-holt
+---
